@@ -5,14 +5,19 @@ header{
 .logo img{
 height: 200px;
 }
-section{
+.contenido{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    background-color: aquamarine;
+    gap: 20px;
 }
 section img{
-    height: 100px;
+    height: 200px;
 }
 .puntuacion{
     display: flex;
     flex-direction: row;
+    background-color: blue;
+    justify-content: space-between;
+    padding: 10px;
 }
